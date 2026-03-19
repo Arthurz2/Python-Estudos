@@ -23,4 +23,4 @@ print("Nome completo (7a forma): %s" % nome_completo)
 print("Nome completo (8a forma): %s %s" % (nome, sobreNome)) # transformação de valores em string na formatação 
 
 #Novas formas o f você coloca antes da string e {} operações , variaveis e funções
-print(f"Nome completo (9a forma): {nome} {sobreNome} " ) # melhor visivelmente agradavel
+print("Nome completo (9a forma): {} {} ".format(sobreNome, nome) ) # melhor visivelmente agradavel
